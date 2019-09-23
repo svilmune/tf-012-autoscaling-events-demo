@@ -39,17 +39,13 @@ Running this creates following resources:
 * terraform plan !! Remember to review the plan !!
 * terraform apply
 
-6. To remove resources:
-
-* terraform destroy
-
-7. Review the public IP of compute instance and the private IP's for compute instance. You can use the private ssh key and *opc* user to login to these instances
+6. Review the public IP of compute instance and the private IP's for compute instance. You can use the private ssh key and *opc* user to login to these instances
 
 ## Removal of stack
 
-In case you want to remove created stack:
+In case you want to remove created resources:
 
-* Navigate inside stack and press *Terraform Actions -> Destroy*, this will remove all the created resources
+* terraform destroy
 
 ## Additional notes
 
